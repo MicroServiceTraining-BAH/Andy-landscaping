@@ -145,8 +145,8 @@ export default function AboutPage() {
             <div className="relative">
               <div className="rounded-3xl overflow-hidden shadow-xl aspect-[3/4] max-w-sm mx-auto lg:max-w-none">
                 <Image
-                  src="https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?auto=format&fit=crop&w=800&q=80"
-                  alt="Paulino, owner of Andy Landscaping Services, working on a residential yard in Herndon, VA"
+                  src="/images/lawn-care.jpg"
+                  alt="Andy Landscaping Services team performing lawn care on a residential property in Herndon, VA"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"

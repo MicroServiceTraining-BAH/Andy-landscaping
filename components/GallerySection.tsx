@@ -6,37 +6,31 @@ const galleryImages = [
     src: '/images/lawn-maintenance.jpg',
     alt: 'Well-maintained green lawn after professional lawn mowing service in Herndon, VA',
     label: 'Lawn Maintenance',
-    span: 'lg:col-span-2 lg:row-span-2',
   },
   {
     src: '/images/lawn-care.jpg',
     alt: 'Freshly mowed and edged residential lawn with clean borders',
     label: 'Lawn Care',
-    span: '',
   },
   {
     src: '/images/yard-maintenance.jpg',
     alt: 'Professional yard maintenance with wheelbarrow and garden bed in Herndon, VA',
     label: 'Yard Maintenance',
-    span: '',
   },
   {
     src: '/images/stone-work-planting.jpg',
     alt: 'Stone edging and fresh planting in a residential garden',
     label: 'Stone Work & Planting',
-    span: '',
   },
   {
     src: '/images/tree-cutting.jpg',
     alt: 'Tree trimming and cutting service for a residential property',
     label: 'Tree Cutting',
-    span: '',
   },
   {
     src: '/images/general-landscaping.jpg',
     alt: 'Full backyard landscaping transformation with clean garden beds',
     label: 'General Landscaping',
-    span: '',
   },
 ];
 
@@ -56,11 +50,11 @@ export default function GallerySection() {
         </div>
 
         {/* Gallery grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 auto-rows-[240px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {galleryImages.map((img) => (
             <div
               key={img.alt}
-              className={`relative rounded-2xl overflow-hidden group cursor-pointer ${img.span}`}
+              className="relative aspect-[4/3] rounded-2xl overflow-hidden group cursor-pointer"
             >
               <Image
                 src={img.src}

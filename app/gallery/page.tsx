@@ -92,19 +92,18 @@ export default function GalleryPage() {
       {/* Gallery Grid */}
       <section className="section-padding bg-brand-bg" aria-label="Project photos">
         <div className="container-wide">
-          <div className="columns-1 sm:columns-2 lg:columns-3 gap-5 space-y-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {galleryItems.map((item, index) => (
               <div
                 key={`${item.category}-${index}`}
-                className="break-inside-avoid rounded-2xl overflow-hidden group relative bg-white shadow-sm border border-green-100"
+                className="rounded-2xl overflow-hidden group bg-white shadow-sm border border-green-100"
               >
-                <div className="relative overflow-hidden">
+                <div className="relative aspect-[4/3] overflow-hidden">
                   <Image
                     src={item.src}
                     alt={item.alt}
-                    width={900}
-                    height={index % 3 === 0 ? 600 : 400}
-                    className="w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-green-950/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

@@ -17,7 +17,6 @@ dist/
 # misc
 .DS_Store
 *.pem
-.env
 .env*.local
 
 # debug
@@ -31,3 +30,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+config.bat

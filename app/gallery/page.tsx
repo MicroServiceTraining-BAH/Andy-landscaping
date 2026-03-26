@@ -24,12 +24,6 @@ const galleryItems = [
     description: 'Fresh mulch and seasonal planting for vibrant beds.',
   },
   {
-    src: 'https://images.unsplash.com/photo-1585320806297-9794b3e4aaae?auto=format&fit=crop&w=600&q=80',
-    alt: 'Freshly mowed residential lawn with clean borders',
-    category: 'Lawn Care',
-    description: 'Well-maintained lawn with crisp lines throughout.',
-  },
-  {
     src: 'https://images.unsplash.com/photo-1599685315640-4a9a5f2d3738?auto=format&fit=crop&w=600&q=80',
     alt: 'Natural stone garden border and pathway installation',
     category: 'Stone Work',
@@ -58,12 +52,6 @@ const galleryItems = [
     alt: 'Professional yard maintenance with wheelbarrow and garden bed in Herndon, VA',
     category: 'Yard Maintenance',
     description: 'Hands-on care with attention to every detail.',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?auto=format&fit=crop&w=600&q=80',
-    alt: 'Decorative garden with stone edging and fresh planting',
-    category: 'Stone Work & Planting',
-    description: 'Stone edging paired with seasonal plantings.',
   },
 ];
 

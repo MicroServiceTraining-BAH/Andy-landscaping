@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center overflow-hidden" aria-label="Hero">
       {/* Background Image */}
       <Image
-        src="https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1920&q=80"
+        src="/images/general-landscaping.jpg"
         alt="Lush green landscaped lawn in Herndon, VA"
         fill
         priority

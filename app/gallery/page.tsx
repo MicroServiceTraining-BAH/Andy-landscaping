@@ -12,46 +12,40 @@ export const metadata: Metadata = {
 
 const galleryItems = [
   {
-    src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80',
+    src: '/images/lawn-maintenance.jpg',
     alt: 'Pristine green lawn after professional mowing and edging service in Herndon, VA',
     category: 'Lawn Maintenance',
     description: 'Clean cut, sharp edges — every single visit.',
   },
   {
-    src: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=600&q=80',
-    alt: 'Beautiful flower garden bed with fresh mulch installation',
-    category: 'Mulch & Planting',
-    description: 'Fresh mulch and seasonal planting for vibrant beds.',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1599685315640-4a9a5f2d3738?auto=format&fit=crop&w=600&q=80',
-    alt: 'Natural stone garden border and pathway installation',
-    category: 'Stone Work',
-    description: 'Decorative stone borders for defined, lasting structure.',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?auto=format&fit=crop&w=600&q=80',
-    alt: 'Tree trimming and pruning work on residential property',
-    category: 'Tree Cutting',
-    description: 'Safe, clean tree trimming and branch removal.',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=600&q=80',
-    alt: 'Backyard landscaping project with healthy trees and lawn',
-    category: 'General Landscaping',
-    description: 'Full backyard transformation — turf, beds, and trees.',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=900&q=80',
-    alt: 'Lush green residential lawn after fertilizing treatment',
-    category: 'Fertilizing',
-    description: 'Seasonal fertilizing for deep green, healthy growth.',
+    src: '/images/lawn-care.jpg',
+    alt: 'Well-maintained residential lawn with clean borders in Herndon, VA',
+    category: 'Lawn Care',
+    description: 'Well-maintained lawn with crisp lines throughout.',
   },
   {
     src: '/images/yard-maintenance.jpg',
     alt: 'Professional yard maintenance with wheelbarrow and garden bed in Herndon, VA',
     category: 'Yard Maintenance',
     description: 'Hands-on care with attention to every detail.',
+  },
+  {
+    src: '/images/stone-work-planting.jpg',
+    alt: 'Stone edging and fresh planting in a residential garden in Herndon, VA',
+    category: 'Stone Work & Planting',
+    description: 'Stone edging paired with seasonal plantings.',
+  },
+  {
+    src: '/images/tree-cutting.jpg',
+    alt: 'Tree trimming and cutting service on a residential property in Herndon, VA',
+    category: 'Tree Cutting',
+    description: 'Safe, clean tree trimming and branch removal.',
+  },
+  {
+    src: '/images/general-landscaping.jpg',
+    alt: 'Full backyard landscaping transformation in Herndon, VA',
+    category: 'General Landscaping',
+    description: 'Full backyard transformation — turf, beds, and trees.',
   },
 ];
 

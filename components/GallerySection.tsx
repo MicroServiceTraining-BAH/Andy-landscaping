@@ -3,38 +3,38 @@ import Link from 'next/link';
 
 const galleryImages = [
   {
-    src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80',
+    src: '/images/lawn-maintenance.jpg',
     alt: 'Well-maintained green lawn after professional lawn mowing service in Herndon, VA',
     label: 'Lawn Maintenance',
     span: 'lg:col-span-2 lg:row-span-2',
   },
   {
-    src: '/images/yard-maintenance.jpg',
-    alt: 'Professional yard maintenance with wheelbarrow and garden bed in Herndon, VA',
-    label: 'Mulch & Planting',
-    span: '',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1585320806297-9794b3e4aaae?auto=format&fit=crop&w=600&q=80',
-    alt: 'Freshly mowed and edged lawn with clean borders',
+    src: '/images/lawn-care.jpg',
+    alt: 'Freshly mowed and edged residential lawn with clean borders',
     label: 'Lawn Care',
     span: '',
   },
   {
-    src: 'https://images.unsplash.com/photo-1599685315640-4a9a5f2d3738?auto=format&fit=crop&w=600&q=80',
-    alt: 'Stone pathway and garden border installation',
-    label: 'Stone Work',
+    src: '/images/yard-maintenance.jpg',
+    alt: 'Professional yard maintenance with wheelbarrow and garden bed in Herndon, VA',
+    label: 'Yard Maintenance',
     span: '',
   },
   {
-    src: 'https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?auto=format&fit=crop&w=600&q=80',
+    src: '/images/stone-work-planting.jpg',
+    alt: 'Stone edging and fresh planting in a residential garden',
+    label: 'Stone Work & Planting',
+    span: '',
+  },
+  {
+    src: '/images/tree-cutting.jpg',
     alt: 'Tree trimming and cutting service for a residential property',
     label: 'Tree Cutting',
     span: '',
   },
   {
-    src: 'https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=600&q=80',
-    alt: 'Backyard landscaping transformation with clean garden beds',
+    src: '/images/general-landscaping.jpg',
+    alt: 'Full backyard landscaping transformation with clean garden beds',
     label: 'General Landscaping',
     span: '',
   },

@@ -9,8 +9,8 @@ const galleryImages = [
     span: 'lg:col-span-2 lg:row-span-2',
   },
   {
-    src: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=600&q=80',
-    alt: 'Beautiful flower garden bed with mulch installation',
+    src: '/images/yard-maintenance.jpg',
+    alt: 'Professional yard maintenance with wheelbarrow and garden bed in Herndon, VA',
     label: 'Mulch & Planting',
     span: '',
   },

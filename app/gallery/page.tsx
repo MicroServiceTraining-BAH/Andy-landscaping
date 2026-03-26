@@ -54,8 +54,8 @@ const galleryItems = [
     description: 'Seasonal fertilizing for deep green, healthy growth.',
   },
   {
-    src: 'https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?auto=format&fit=crop&w=600&q=80',
-    alt: 'Professional landscaper working on a residential yard',
+    src: '/images/yard-maintenance.jpg',
+    alt: 'Professional yard maintenance with wheelbarrow and garden bed in Herndon, VA',
     category: 'Yard Maintenance',
     description: 'Hands-on care with attention to every detail.',
   },
